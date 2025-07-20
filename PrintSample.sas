@@ -8,7 +8,7 @@ quit;
 
 /* SELECT FIRST 20 ROWS */
 %if &selection=FIRST %then %do;
-	title1 color="blue" "Sample from SASHELP.HOMEEQUITY";
+	title1 color="green" "Sample from SASHELP.HOMEEQUITY";
 	title2 height=3 "First 20 of &N Rows";
 
 	data sample;
